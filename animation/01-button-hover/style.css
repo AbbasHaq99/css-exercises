@@ -1,3 +1,7 @@
+
+
+
+
 #transition-container {
   width: 100vw;
   height: 100vh;
@@ -16,4 +20,16 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+}
+
+
+/*
+
+.button:hover{
+  transform: scale(5.3);
+}
+  */
+
+button:hover {
+  transform: scale(1.1); /* Adjust scale as needed */
 }

@@ -43,6 +43,7 @@ button {
 
 .popup-modal p {
   margin-bottom: 24px;
+
 }
 
 .backdrop {
@@ -60,4 +61,11 @@ button {
 
 .backdrop.show {
   opacity: 30%;
+}
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
 }
