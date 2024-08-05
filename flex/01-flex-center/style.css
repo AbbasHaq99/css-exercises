@@ -13,3 +13,23 @@
   width: 80px;
   height: 80px;
 }
+
+
+.box {
+  position: relative;
+  top: 20px;    /* Moves the box 20px down from its normal position */
+  left: 30px;   /* Moves the box 30px to the right from its normal position */
+}
+.container {
+  position: relative; /* The box will be positioned relative to this container */
+}
+
+.box {
+  position: absolute;
+  top: 50px;  /* 50px from the top of the container */
+  left: 100px; /* 100px from the left of the container */
+}
+
+div{
+  color:red;
+}

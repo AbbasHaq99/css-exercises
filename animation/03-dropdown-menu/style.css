@@ -18,7 +18,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: rgb(139, 35, 35);
+  background-color: rgb(83, 67, 67);
   transition: opacity 0.5s ease, transform 0.5s ease; /* Adjust the duration as needed */
 
   display: none;
@@ -32,9 +32,4 @@ ul.dropdown-menu li:hover {
 
 .visible {
   display: block;
-}
-
-p {
-  color: red;
-  text-align: center;
 }
