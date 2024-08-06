@@ -69,5 +69,16 @@ button.cancel {
 }
 
 .container{
+  display: flex;  
+}
+
+.close-button{
   display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: flex-start; 
+}
+
+.text{
+  display: flex;
+  color: red;
 }
