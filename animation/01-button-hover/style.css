@@ -1,7 +1,5 @@
 
 
-
-
 #transition-container {
   width: 100vw;
   height: 100vh;
@@ -22,14 +20,6 @@ button {
   text-align: center;
 }
 
-
-/*
-
-.button:hover{
-  transform: scale(5.3);
-}
-  */
-
 button:hover {
-  transform: scale(1.1); /* Adjust scale as needed */
+  transform: scale(1.2);
 }
