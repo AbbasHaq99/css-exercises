@@ -2,10 +2,18 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+
+
+*{
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
 body {
   margin: 0;
   background: #eee;
-  font-family: Besley, serif;
+  font-family: Besley, serif; 
+
 }
 
 .header {
@@ -45,4 +53,10 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+body{
+  display:flex;
+  justify-content: space-between;
+
 }
