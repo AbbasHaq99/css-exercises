@@ -1,0 +1,13 @@
+button{
+    background-color: white;
+    font-size: 100px;
+}
+
+#one{
+    background-color: black;
+    color: white;
+}
+#two{
+    background-color: yellow;
+    color: black;
+}
