@@ -2,21 +2,24 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-
-
-
 body {
   margin: 0;
   background: #eee;
-  font-family: Besley, serif; 
-
+  font-family: Besley, serif;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header {
+  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  padding: 0 20px; /* Add some horizontal padding */
 }
+
 
 .profile-image {
   background: rebeccapurple;
@@ -48,13 +51,11 @@ a {
 }
 
 ul {
+  display:flex;
   list-style-type: none;
 }
-li {
-  display:inline;
-}
 
-.header.header {
+.header {
   display: flex;
   justify-content: space-between;
   padding: 8px;
